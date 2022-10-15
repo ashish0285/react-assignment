@@ -1,0 +1,25 @@
+.post-container {
+	background: #e2e8d5;
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	margin: 0 3%;
+}
+.heading {
+	height: 140px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.image {
+	width: 90%;
+	height: 200px;
+}
+body {
+	background-color: #bdc2bf;
+}
+.posts-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

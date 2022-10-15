@@ -1,22 +1,16 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Profile from './components/Profile';
-import ProfileForm from './components/ProfileForm';
+import Clock from './components/Clock'
+import Posts from './components/Posts'
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route >
-            <Route exec path="/" element={<ProfileForm />} />
-            <Route exec path="Profile" element={<Profile />} />
-          </Route>
-        </Routes>
+    <div className="App">
+      <Clock />
+      <div className="main-container">
+        <h1 className="main-heading">Timer and Post Assignment React</h1>
+        <Posts />
       </div>
-    </BrowserRouter>
-
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
